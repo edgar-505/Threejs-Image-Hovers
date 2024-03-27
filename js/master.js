@@ -14,10 +14,10 @@ preloadImages().then(() => {
 
     //const effect = new RGBShiftEffect(container, itemsWrapper)
     //const effect = new SmoothFadeTransitionEffect(container, itemsWrapper)
-    //const effect = new FlyEyeTransitionEffect(container, itemsWrapper)
+    const effect = new FlyEyeTransitionEffect(container, itemsWrapper)
     //const effect = new RippleTransitionEffect(container, itemsWrapper)
     //const effect = new PerlinTransitionEffect(container, itemsWrapper)
-    const effect = new MorphTransitionEffect(container, itemsWrapper)
+    //const effect = new MorphTransitionEffect(container, itemsWrapper)
 
 });
 
